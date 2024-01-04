@@ -31,3 +31,7 @@ const example2 = ["please wait", "continue to fight", "continue to win"];
 
 console.log(maxNumberOfWords(example1)); // Output: 6
 console.log(maxNumberOfWords(example2)); // Output: 3
+
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
+// ✅
