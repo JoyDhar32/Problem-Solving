@@ -32,4 +32,4 @@ console.log(createTargetArray(example3.nums, example3.index)); // Output: [1]
 
 // time complexity: O(n^2)
 // space complexity: O(n)
-// ✅
+// ✅ Beats 54.97%of users with JavaScript
