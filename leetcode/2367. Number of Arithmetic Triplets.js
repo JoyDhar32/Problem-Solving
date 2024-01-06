@@ -34,3 +34,9 @@ console.log(countTriplets(example1, diff1)); // Output: 2
 const example2 = [4, 5, 6, 7, 8, 9];
 const diff2 = 2;
 console.log(countTriplets(example2, diff2)); // Output: 2
+
+
+// time complexity: O(n)
+// space complexity: O(n)
+
+// ✅ Beats 75.88%of users with JavaScript
