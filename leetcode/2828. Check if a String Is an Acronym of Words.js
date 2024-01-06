@@ -8,7 +8,6 @@ const isAcronm = (words, s) => {
     }
     return acronym === s;
 }
-
 console.log(isAcronm(["a", "b", "c"], "abc")); // true
 console.log(isAcronm(["a", "b", "c"], "abcd")); // false
 console.log(isAcronm(["a", "b", "c"], "ab")); // false
