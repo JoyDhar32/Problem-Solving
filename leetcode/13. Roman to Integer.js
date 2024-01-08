@@ -32,4 +32,5 @@ console.log(romanToInt('MCMXCIV')); // 1994
 
 // time complexity: O(n)
 // space complexity: O(1)
-// ✅
+
+// ✅ Beats 88.99% of JavaScript submissions in runtime
