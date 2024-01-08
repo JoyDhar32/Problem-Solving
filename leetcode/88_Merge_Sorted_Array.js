@@ -15,4 +15,4 @@ console.log(Merge(([2,0]),1,[1],1)); // [1,2]
 // time complexity: O(n)
 // space complexity: O(1)
 
-// ✅
+// ✅ Beats 97% of JavaScript submissions in runtime
