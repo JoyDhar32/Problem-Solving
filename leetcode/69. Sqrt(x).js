@@ -22,6 +22,11 @@ console.log(mySqrt(1));
 console.log(mySqrt(0));
 console.log(mySqrt(9));
 
+// time complexity: O(log(x))
+// space complexity: O(1)
+
+// ✅ Beats 89.99% of JavaScript submissions in runtime
+
 /*
 Explaination:
 Explaining it for input 8
