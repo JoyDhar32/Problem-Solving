@@ -11,7 +11,8 @@ function isPalindrome(s) {
 
 // time complexity: O(n)
 // space complexity: O(1)
-// ✅
+
+// ✅ Beats 81.99% of users with JavaScript
   /*Function isPalindrome: This function takes a string s as its parameter and returns true if the string is a palindrome (after removing non-alphanumeric characters and converting to lowercase), and false otherwise.
 
 s.replace(/[^a-zA-Z0-9]/g, ''): This part uses the replace method with a regular expression to remove all non-alphanumeric characters ([^a-zA-Z0-9]) globally (/g) from the input string s. This includes characters like commas, spaces, and colons.
