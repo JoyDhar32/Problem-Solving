@@ -16,4 +16,5 @@ console.log(removeDuplicates([1])); // 1
 
 // time complexity: O(n)
 // space complexity: O(1)
-// ✅
+
+// ✅ Beats 96.98% of JavaScript submissions in runtime
