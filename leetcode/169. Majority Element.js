@@ -9,4 +9,4 @@ const majorityElement = (nums) => {
     console.log(majorityElement([2,2,1,1,1,2,2]))//2
     console.log(majorityElement([2,2,1,1,1,2,2]))//2
 
-// //✅ Beats 90.45%of users with JavaScript
+// ✅ Beats 90.45%of users with JavaScript
