@@ -18,7 +18,7 @@ const maximumNumberOfStringParis =(words) =>{
 console.log(maximumNumberOfStringParis(["cd","ac","dc","ca","zz"])); // 2
 console.log(maximumNumberOfStringParis(["ab","ba","cc"])); // 1
 
-// time complexity: O(n)
-// space complexity: O(n)
+// time complexity: O(N * K)
+// space complexity: O(N * K)
 
 // ✅ Beats 100% of users with JavaScript
