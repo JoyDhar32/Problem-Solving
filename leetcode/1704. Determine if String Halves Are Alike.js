@@ -29,4 +29,6 @@ console.log(halvesAreAlike("textbook"));  // Output: false
 // Space Complexity: O(1)
 
 //✅ Hint: use slice() to split the string into two halves.
+//✅ Hint: use a Set to store the vowels.
+//✅ Hint: use a for...of loop to iterate through the string.
 
