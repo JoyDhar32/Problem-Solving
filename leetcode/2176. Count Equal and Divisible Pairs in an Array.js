@@ -12,7 +12,5 @@ const countPairs = (nums,k)=>{
 console.log(countPairs([3,1,2,2,2,1,3],2));
 console.log(countPairs([1,2,3,4],1));
 
-// time complexity: O(n^2)
-// space complexity: O(1)
 
 // ✅ Hint: Use a nested for loop to iterate through all possible pairs of numbers in the array.
