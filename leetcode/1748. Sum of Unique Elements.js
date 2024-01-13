@@ -22,5 +22,5 @@ const sumOfUnique = (nums) => {
     // time complexity: O(n)
     // space complexity: O(n)
 
-    //  ✅ Hint: Use a hash map to store the frequency of each number.
+    //  ✅ Hint: using nested loop
     // Iterate through the array and add the numbers that have a frequency of 1.
