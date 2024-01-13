@@ -20,4 +20,4 @@ console.log(minSteps("friend","family")); // 4
 // time complexity: O(n)
 // space complexity: O(n)
 
-// ✅  Beats 89.53% of users with JavaScript
+// ✅ Beats 89.53% of users with JavaScript
