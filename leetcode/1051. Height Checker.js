@@ -12,6 +12,7 @@ const heightChecker = (heights) => {
     console.log(heightChecker([1,1,4,2,1,3])); // 3
     console.log(heightChecker([5,1,2,3,4])); // 5
     console.log(heightChecker([1,2,3,4,5])); // 0
+    console.log(~~10.90);
     // time complexity: O(n)
     // space complexity: O(n)
 
