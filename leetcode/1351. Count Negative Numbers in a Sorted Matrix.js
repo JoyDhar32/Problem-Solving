@@ -19,4 +19,4 @@ console.log(countNegatives([[-1]])); // Output: 1
 
 //  ✅ Beats 96.95% of JavaScript Submissions
 // Hint: Use Binary Search
-// Hint: Used for of loop to traverse 2D array
+// Hint:✅ Used for of loop to traverse 2D array
