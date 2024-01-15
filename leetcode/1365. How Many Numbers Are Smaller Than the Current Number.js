@@ -32,4 +32,4 @@ console.log(smallerNumbersThanCurrent(example3)); // Output: [0,0,0,0]
 // Time Complexity: O(n^2)
 // Space Complexity: O(n)
 
-// ✅
+// ✅ Beats 92.78% of JavaScript submissions in runtime
