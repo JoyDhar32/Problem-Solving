@@ -30,4 +30,4 @@ console.log(kidsWithCandies(example3, extraCandies3)); // Output: [true,false,tr
 
 // Time Complexity: O(n)
 // Space Complexity: O(n)
-// ✅
+// ✅ Beat 88% of Leetcode submissions
