@@ -16,4 +16,4 @@ console.log(runningSum([3,1,2,10,1])); // Output: [3,4,6,16,17]
 
 // Time Complexity: O(n)
 // Space Complexity: O(n)
-// ✅
+// ✅ Beat 95.66% of Leetcode submissions
