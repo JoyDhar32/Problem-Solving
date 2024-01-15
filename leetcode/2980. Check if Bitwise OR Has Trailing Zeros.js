@@ -13,5 +13,5 @@ console.log(hasTrailingZeros([1,2,3,4,5])); // true
 console.log(hasTrailingZeros([2,4,8,16])); // true
 
 
-//  ✅ Beats 98.07% of users with JavaScript
+//  ✅ Hint: Just check if there are at least two even numbers in the array.
 
