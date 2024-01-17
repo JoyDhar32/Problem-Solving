@@ -14,4 +14,6 @@ console.log(uniqueOccurrences([1,2,2,1,1,3])); // Output: true
 console.log(uniqueOccurrences([1,2])); // Output: false
 console.log(uniqueOccurrences([-3,0,1,-3,1,1,1,-3,10,0])); // Output: true
 
-// Hint 1: Use an object to count the frequency of each element.
+// ✅ Hints: Use an object to count the frequency of each element.
+
+// ✅ Map
