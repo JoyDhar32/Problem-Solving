@@ -1,11 +1,11 @@
 const sumZero = (n) => {
     const arr = [];
-    if(n%2!==0){
-        arr.push(0);
+    let sum = 0;
+    for (let i = 1; i < n; i++) {
+        arr.push(i);
+        sum += i;
     }
-    for(let i=1;i<=Math.floor(n/2);i++){
-        arr.push(i,-i);
-    }
+    arr.push(-sum);
     return arr;
 }
 
