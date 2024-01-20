@@ -20,5 +20,4 @@ const maxArea = (height) => {
 
     // time complexity: O(n)
     // space complexity: O(1)
-
     // ✅ Using two pointers, we can move the pointer pointing to the shorter line inwards.
