@@ -11,4 +11,4 @@ console.log(divisorGame(5)); // false
 // ✅ Time Complexity: O(1)  
 // ✅ Space Complexity: O(1)
 
-// Hints : ✅ Mathematical Deduction
+// ✅ Hints :  Mathematical Deduction 
