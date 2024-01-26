@@ -13,3 +13,4 @@ console.log(intersection([1,2,2,1], [2,2])); // [2]
 // time complexity: O(n)
 // space complexity: O(n)
 // ✅ Beats 89.99% of JavaScript submissions in runtime
+// Hint: Use Set to store the first array, then check if the second array contains the element in the set. If yes, add it to the result set.
