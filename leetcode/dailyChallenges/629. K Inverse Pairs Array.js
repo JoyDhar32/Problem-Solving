@@ -24,4 +24,4 @@ console.log(kInversePairs(3, 3)); // 1
 
 // Time Complexity: O(n*k)
 // Space Complexity: O(k)
-// Hint: ✅ SubmissionsDynamic Programming
+// Hint: ✅Dynamic Programming
