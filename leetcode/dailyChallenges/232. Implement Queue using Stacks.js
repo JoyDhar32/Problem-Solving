@@ -31,7 +31,6 @@ MyQueue.prototype.transferElements = function () {
         this.stack2.push(this.stack1.pop());
     }
 };
-
 console.log("MyQueue", MyQueue); 
 
 // Time Complexity: O(n)
