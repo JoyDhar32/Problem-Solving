@@ -16,4 +16,4 @@ console.log(judgeCircle("RRDD"));
 
 // Time Complexity: O(n)
 // Space Complexity: O(1)
-// ✅ Hints: Using String and Array
+// ✅ Hints: Count left and right moves separately using two variables.
