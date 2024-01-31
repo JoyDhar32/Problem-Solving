@@ -15,4 +15,4 @@ console.log(vowelStrings(["abc","def","ghi","jkl","mno"],0,2));
 
 // // // Time Complexity: O(n)
 // // // Space Complexity: O(1)
-// ✅Beats 100%of users with JavaScript
+// ✅ Hints: Using the reduce method, we can iterate through the array and check if the current index is within the specified range, if the word starts with a vowel, and if the word ends with a vowel. If all of these conditions are met, we can increment the accumulator by 1.
