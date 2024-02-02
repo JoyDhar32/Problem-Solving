@@ -7,6 +7,7 @@ const percentageLetter =(s,letter)=>{
         }
     }
     return Math.trunc((count/whole)*100); 
+    // return ~~((count/whole)*100); 
 }
 console.log(percentageLetter("hello","l"));//40
 console.log(percentageLetter("hello","h"));//20
