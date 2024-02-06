@@ -20,4 +20,6 @@ console.log(minFallingPathSum([[1, 2, 3], [4, 5, 6], [7, 8, 9]])); // 13
 console.log(minFallingPathSum([[1]])); // 1
 console.log(minFallingPathSum([[1, 2], [3, 4]])); // 4
 
-// ✅ Minimum Falling Path Sum 
+// Time Complexity: O(n^2)
+// Space Complexity: O(n^2)
+// ✅ Hints: Minimum Falling Path Sum 
