@@ -14,6 +14,7 @@ console.log(uniqueOccurrences([1,2,2,1,1,3])); // Output: true
 console.log(uniqueOccurrences([1,2])); // Output: false
 console.log(uniqueOccurrences([-3,0,1,-3,1,1,1,-3,10,0])); // Output: true
 
+// Time Complexity: O(n)
+// Space Complexity: O(n)
 // ✅ Hints: Use an object to count the frequency of each element.
-
 // ✅ Map
