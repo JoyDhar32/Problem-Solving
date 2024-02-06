@@ -47,4 +47,6 @@ console.log(randomizedSet.remove(1)); // true
 console.log(randomizedSet.insert(2)); // false
 console.log(randomizedSet.getRandom()); // 2
 
+//time complexity is O(1)
+//space complexity is O(n)
 // ✅  Beats 85.75% of users with JavaScript
