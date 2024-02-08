@@ -13,3 +13,7 @@ console.log(numSquares(12)); //3
 console.log(numSquares(13)); //2
 console.log(numSquares(16)); //4
 console.log(numSquares(17)); //3
+
+// Time Complexity: O(n*sqrt(n))
+// Space Complexity: O(n)
+// ✅ Hint: Dynamic Programming
