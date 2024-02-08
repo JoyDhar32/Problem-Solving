@@ -16,4 +16,11 @@ console.log(numSquares(17)); //3
 
 // Time Complexity: O(n*sqrt(n))
 // Space Complexity: O(n)
-// ✅ Hint: Dynamic Programming
+// ✅ Hint: Dynamic Programming (Bottom-Up)
+// ✅ Hint: Using Math.min and Math.max
+/*
+What is Dynamic Programming:
+- Dynamic Programming is a method for solving a complex problem by breaking it down into simpler subproblems.
+- It involves storing the results of expensive function calls and returning the cached result when the same inputs occur again.
+
+*/
