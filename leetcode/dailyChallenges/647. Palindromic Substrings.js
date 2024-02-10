@@ -20,3 +20,7 @@ const expandAroundCenter = (s, left, right) =>{
 console.log(countSubstrings("abc")); // 3
 console.log(countSubstrings("aaa")); // 6
 console.log(countSubstrings("abba")); // 6
+
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
+//✅ Hint: Dynamic Programming
