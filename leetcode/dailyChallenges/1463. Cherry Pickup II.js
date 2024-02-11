@@ -26,6 +26,7 @@ const dfs = (row, col1, col2, grid, dp) => {
 console.log(cherryPickup([[0, 1, -1], [1, 0, -1], [1, 1, 1]])); // 5
 console.log(cherryPickup([[1, 1, -1], [1, -1, 1], [-1, 1, 1]])); // 0
 console.log(cherryPickup([[1]])); // 1
+console.log(cherryPickup([[1, 1], [1, 1]])); // 4
 
 // Time Complexity: O(n^3)
 // Space Complexity: O(n^3)
