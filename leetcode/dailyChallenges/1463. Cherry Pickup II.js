@@ -22,6 +22,7 @@ const dfs = (row, col1, col2, grid, dp) => {
     return dp[row][col1][col2] = result + cherries;
 }
 
+
 console.log(cherryPickup([[0, 1, -1], [1, 0, -1], [1, 1, 1]])); // 5
 console.log(cherryPickup([[1, 1, -1], [1, -1, 1], [-1, 1, 1]])); // 0
 console.log(cherryPickup([[1]])); // 1
