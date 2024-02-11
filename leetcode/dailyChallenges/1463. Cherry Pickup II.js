@@ -3,7 +3,7 @@ const cherryPickup = (grid) => {
     const m = grid[0].length;
     const dp = new Array(n).fill(null).map(() => new Array(m).fill(null).map(() => new Array(m).fill(-1)));
     return dfs(0, 0, m - 1, grid, dp);
-    }
+}
 
 const dfs = (row, col1, col2, grid, dp) => {
     if (row === grid.length) return 0;
@@ -22,8 +22,8 @@ const dfs = (row, col1, col2, grid, dp) => {
     return dp[row][col1][col2] = result + cherries;
 }
 
-console.log(cherryPickup([[0,1,-1],[1,0,-1],[1,1,1]])); // 5
-console.log(cherryPickup([[1,1,-1],[1,-1,1],[-1,1,1]])); // 0
+console.log(cherryPickup([[0, 1, -1], [1, 0, -1], [1, 1, 1]])); // 5
+console.log(cherryPickup([[1, 1, -1], [1, -1, 1], [-1, 1, 1]])); // 0
 console.log(cherryPickup([[1]])); // 1
 
 // Time Complexity: O(n^3)
