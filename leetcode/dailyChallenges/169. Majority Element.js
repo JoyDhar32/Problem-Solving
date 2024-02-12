@@ -13,4 +13,4 @@ const majorityElement = (nums) => {
 // ✅ Beats 90.45%of users with JavaScript
 // time complexity is O(n)
 // space complexity is O(n)
-// Hint: Boyer-Moore Voting Algorithm
+// ✅ Hint: Boyer-Moore Voting Algorithm
