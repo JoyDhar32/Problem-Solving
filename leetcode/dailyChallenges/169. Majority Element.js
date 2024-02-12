@@ -9,4 +9,8 @@ const majorityElement = (nums) => {
     console.log(majorityElement([2,2,1,1,1,2,2]))//2
     console.log(majorityElement([2,2,1,1,1,2,2]))//2
 
+
 // ✅ Beats 90.45%of users with JavaScript
+// time complexity is O(n)
+// space complexity is O(n)
+// Hint: Boyer-Moore Voting Algorithm
