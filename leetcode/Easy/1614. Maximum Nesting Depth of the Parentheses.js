@@ -15,3 +15,7 @@ const maxPer= (s) =>{
 console.log(maxPer("(1+(2*3)+((8)/4))+1"));//3
 console.log(maxPer("(1)+((2))+(((3)))"));//3
 console.log(maxPer("1+(2*3)/(2-1)"));//1
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+// ✅ hints: Using Stack
