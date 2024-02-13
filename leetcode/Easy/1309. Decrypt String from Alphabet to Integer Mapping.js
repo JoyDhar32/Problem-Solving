@@ -13,3 +13,7 @@ const freqAlphabets = (s) => {
     console.log(freqAlphabets("10#11#12"));//jkab
     console.log(freqAlphabets("1326#"));//acz
     console.log(freqAlphabets("25#"));//y
+
+    // time complexity is O(n)
+    // space complexity is O(1) because we are not using any extra space
+    // ✅ Hints: Using JS Built-in Functions parseInt, fromCharCode
