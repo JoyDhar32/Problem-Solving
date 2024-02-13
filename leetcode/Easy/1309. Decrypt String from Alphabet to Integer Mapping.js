@@ -15,5 +15,5 @@ console.log(freqAlphabets("1326#"));//acz
 console.log(freqAlphabets("25#"));//y
 
 // time complexity is O(n)
-// space complexity is O(1) because we are not using any extra space
-// ✅ Hints: Using JS Built-in Functions parseInt, fromCharCode
+// space complexity is O(1) because we are not using any extra space to store the result
+// ✅ Hints: Using JS Built-in Functions parseInt, fromCharCode  
