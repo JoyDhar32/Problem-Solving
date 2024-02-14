@@ -10,8 +10,8 @@ const rearrangeArray = (nums) => {
     }
     return res;
 }
-console.log(rearrangeArray([1, 2, 3, -1, -2, -3]));//[ [ 1, -1 ], [ 2, -2 ], [ 3, -3 ] ]
-console.log(rearrangeArray([1, 2, 3, 4, 5, 6]));//[ [ 1, -1 ], [ 2, -2 ], [ 3, -3 ] ]
+console.log(rearrangeArray([1, 2, 3, -1, -2, -3]));
+console.log(rearrangeArray([1, 2, 3, 4, 5, 6]));
 
 // time complexity is O(n)
 // space complexity is O(n) 
