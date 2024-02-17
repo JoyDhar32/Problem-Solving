@@ -33,3 +33,7 @@ const furthestBuilding =(heights, bricks, ladders) => {
 };
 console.log(furthestBuilding([4, 12, 2, 7, 3, 18, 20, 3, 19], 10, 2)); // Output: 7
 console.log(furthestBuilding([14, 3, 19, 3], 17, 0)); // Output: 3
+
+// Time complexity is O(nlogn)
+// Space complexity is O(n)
+// ✅ Hints: Using Priority Queue to solve the problem
