@@ -38,3 +38,7 @@ const mostBooked = (n, meetings) => {
 console.log(mostBooked(3, [[1, 2], [2, 3], [3, 4]])); // Output: 3
 console.log(mostBooked(3, [[1, 2], [2, 3], [2, 4]])); // Output: 2
 console.log(mostBooked(3, [[1, 2], [2, 3], [3, 4], [4, 5]])); // Output: 3
+
+// Time complexity is O(nlogn)
+// Space complexity is O(n)
+// ✅ Hints: Using Priority Queue to solve the problem
