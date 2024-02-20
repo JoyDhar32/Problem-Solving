@@ -12,4 +12,4 @@ console.log(missingNumber([9, 6, 4, 2, 3, 5, 7, 0, 1])); // 8
 
 // Time complexity is O(n)
 // Space complexity is O(1)
-// ✅  using the sum of the first n natural numbers to find the missing number
+// ✅ using the sum of the first n natural numbers to find the missing number
