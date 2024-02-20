@@ -14,4 +14,4 @@ console.log(sortedSquares([0,2])); // [0,4]
 
 // Time complexity is O(nlogn)
 // Space complexity is O(n)
-// ✅ Hints: using exponentiation and sorting
+// ✅ Hints: using exponentiation and sorting the array
