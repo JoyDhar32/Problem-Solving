@@ -13,3 +13,7 @@ const findJudge = (n, trust) => {
     console.log(findJudge(3, [[1,3],[2,3]])); // 3
     console.log(findJudge(3, [[1,3],[2,3],[3,1]])); // -1
     console.log(findJudge(3, [[1,2],[2,3]])); // -1
+
+    // Time complexity is O(n)
+    // Space complexity is O(n)
+    // ✅ Hints: using array to store the trust and untrust value
