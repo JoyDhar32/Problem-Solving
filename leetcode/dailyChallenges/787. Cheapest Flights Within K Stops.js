@@ -19,3 +19,7 @@ console.log(findCheapestPrice(3, [[0,1,100],[1,2,100],[0,2,500]], 0, 2, 1)); // 
 console.log(findCheapestPrice(3, [[0,1,100],[1,2,100],[0,2,500]], 0, 2, 0)); // 500
 console.log(findCheapestPrice(3, [[0,1,100],[1,2,100],[0,2,500]], 0, 2, 2)); // 200
 console.log(findCheapestPrice(3, [[0,1,100],[1,2,100],[0,2,500]], 0, 2, 3)); // 200
+
+// Time complexity is O(n * k)
+// Space complexity is O(n)
+// ✅ Hints: using array to store the prices
