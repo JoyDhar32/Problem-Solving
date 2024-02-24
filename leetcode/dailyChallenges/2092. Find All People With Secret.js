@@ -71,3 +71,9 @@ class UnionFind {
 }
 
 console.log(findAllPeople(5,[[0,1],[1,2],[2,3],[3,4]],0)); // [0,1,2,3,4]
+console.log(findAllPeople(5,[[0,1],[1,2],[2,3],[3,4]],1)); // [1,2,3,4]
+console.log(findAllPeople(5,[[0,1],[1,2],[2,3],[3,4]],2)); // [2,3,4]
+
+// Time Complexity: O(N * log(N))
+// Space Complexity: O(N)
+// ✅ Hint: Union Find
