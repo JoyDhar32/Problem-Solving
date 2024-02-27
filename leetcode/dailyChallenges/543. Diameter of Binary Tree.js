@@ -9,13 +9,13 @@ const diameterOfBinaryTree = (root) => {
     };
     dfs(root);
     return max;
-    }
-console.log(diameterOfBinaryTree([1,2,3,4,5])); // 3
-console.log(diameterOfBinaryTree([1,2])); // 1
-console.log(diameterOfBinaryTree([1,2,3])); // 2
-console.log(diameterOfBinaryTree([1,2,3,4,5])); // 3
+}
+console.log(diameterOfBinaryTree([1, 2, 3, 4, 5])); // 3
+console.log(diameterOfBinaryTree([1, 2])); // 1
+console.log(diameterOfBinaryTree([1, 2, 3])); // 2
+console.log(diameterOfBinaryTree([1, 2, 3, 4, 5])); // 3
 
-    // Time complexity: O(n)
-    // Space complexity: O(n)
-    // Hint:  ✅DFS
+// Time complexity: O(n)
+// Space complexity: O(n)
+// Hint:  ✅DFS
 
