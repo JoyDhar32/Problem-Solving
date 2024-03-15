@@ -15,3 +15,7 @@ const productExceptSelf = (nums) => {
 
 console.log(productExceptSelf([1, 2, 3, 4])); // [24,12,8,6]
 console.log(productExceptSelf([-1, 1, 0, -3, 3])); // [0,0,9,0,0]
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+// ✅ Hint: Using two pointers
