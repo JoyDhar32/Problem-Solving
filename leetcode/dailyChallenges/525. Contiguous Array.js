@@ -16,3 +16,7 @@ const findMaxLength = (nums) => {
     console.log(findMaxLength([0,1])); // 2
     console.log(findMaxLength([0,1,0])); // 2
     console.log(findMaxLength([0,1,0,0,1,1,0])); // 6
+
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
+    // ✅ Hint: Use a map to store the count and index of the first occurrence of the count.
