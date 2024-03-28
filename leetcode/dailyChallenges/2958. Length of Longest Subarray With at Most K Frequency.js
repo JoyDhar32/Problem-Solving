@@ -33,5 +33,5 @@ console.log(maxSubarryLength([1, 2, 1, 3, 4], 4)); // 5
 console.log(maxSubarryLength([1,2,3,1,2,3,1,2], 2)); // 5
 
 // time complexity: O(n)
-// space complexity: O(k) where k is the number of unique elements in the input array
+// space complexity: O(n)
 // ✅ Hints: Sliding Window Technique
