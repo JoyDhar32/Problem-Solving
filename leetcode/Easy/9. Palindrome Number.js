@@ -15,5 +15,5 @@ console.log(isPalindrome(0));   // true
 
 // time complexity: O(n)
 // space complexity: O(1)
-
+// ✅ Hint: Use the modulo operator to get the last digit of the number. Then, multiply the reversed number by 10 and add the last digit to it. Finally, divide the number by 10 to remove the last digit.
 // ✅ Beats 99.99% of users with JavaScript
