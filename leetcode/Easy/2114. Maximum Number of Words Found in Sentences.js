@@ -2,7 +2,7 @@
  * @param {string[]} sentences
  * @return {number}
  */
-var maxNumberOfWords = function(sentences) {
+var maxNumberOfWords = function (sentences) {
     let maxWords = 0;
 
     for (let sentence of sentences) {
@@ -34,4 +34,4 @@ console.log(maxNumberOfWords(example2)); // Output: 3
 
 // Time Complexity: O(n^2)
 // Space Complexity: O(1)
-// ✅
+// ✅ Hints: Count words based on spaces. Update maxWords if the current sentence has more words.
