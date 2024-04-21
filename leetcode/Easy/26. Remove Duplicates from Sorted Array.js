@@ -16,5 +16,6 @@ console.log(removeDuplicates([1])); // 1
 
 // time complexity: O(n)
 // space complexity: O(1)
+// ✅ Hint: Use a counter to keep track of the number of unique elements. If the current element is different from the previous element, update the array with the current element and increment the counter.
 
 // ✅ Beats 96.98% of JavaScript submissions in runtime
