@@ -32,5 +32,6 @@ console.log(romanToInt('MCMXCIV')); // 1994
 
 // time complexity: O(n)
 // space complexity: O(1)
+// ✅ Hint: Use the object to map roman numerals to integers. If the next number is greater than the current number, subtract the current number from the next number. Otherwise, add the current number to the result.
 
 // ✅ Beats 88.99% of JavaScript submissions in runtime
