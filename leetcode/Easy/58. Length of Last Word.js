@@ -15,7 +15,7 @@ console.log(length(" ")); // 0
 
 // time complexity: O(n)
 // space complexity: O(1)
-
+// ✅ Hint: Start from the end of the string and count the number of characters until you reach a space character.
 // ✅ Beats 99.99% of JavaScript submissions in runtime
 
 
