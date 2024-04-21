@@ -38,5 +38,6 @@ console.log(result3); // Output: [1, 0]
 
 // time complexity: O(n)
 // space complexity: O(1)
+// ✅ Hint: Start from the rightmost digit and increment it by 1. If there's a carry, set the current digit to 0 and continue with the next digit. If there's still a carry after the loop, insert a new digit at the beginning.
 
 // ✅ Beats 100% of JavaScript submissions in runtime
