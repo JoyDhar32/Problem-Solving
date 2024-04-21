@@ -24,4 +24,4 @@ console.log(findGCD([3, 3])); // 3
 console.log(findGCD([2, 3, 4, 5])); // 1
 
 
-// ✅ Beats 37.37% of users with JavaScript
+// ✅ Hints: Using JS Built-in Functions
