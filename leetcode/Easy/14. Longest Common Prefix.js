@@ -31,6 +31,7 @@ var longestCommonPrefix = function(strs) {
 
     // time complexity: O(n)
     // space complexity: O(1)
+    // ✅ Hint: Sort the array to easily compare the first and last strings. Then, iterate through the characters of the first string and compare them with the last string. If the characters match, add them to the common prefix. If they don't match, break the loop.
 
     // ✅ Beats 100% of JavaScript submissions in runtime
 
