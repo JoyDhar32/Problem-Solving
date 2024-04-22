@@ -1,4 +1,4 @@
-const toLowerCase =(s)=>{
+const toLowerCase = (s) => {
     return s.toLowerCase()
 }
 console.log(toLowerCase("Hello"))
@@ -11,5 +11,6 @@ console.log(toLowerCase("1A2B3C"))
 
 // time complexity: O(n)
 // space complexity: O(n)
+
 
 // ✅ Beats 94.01%of users with JavaScript
