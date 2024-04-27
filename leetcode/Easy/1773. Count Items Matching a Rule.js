@@ -1,4 +1,4 @@
-var countMatches = function(items, ruleKey, ruleValue) {
+var countMatches = function (items, ruleKey, ruleValue) {
     let count = 0;
 
     for (const item of items) {
@@ -16,10 +16,10 @@ var countMatches = function(items, ruleKey, ruleValue) {
 };
 
 // Example usage:
-const example1 = [["phone","blue","pixel"],["computer","silver","lenovo"],["phone","gold","iphone"]];
+const example1 = [["phone", "blue", "pixel"], ["computer", "silver", "lenovo"], ["phone", "gold", "iphone"]];
 console.log(countMatches(example1, "color", "silver")); // Output: 1
 
-const example2 = [["phone","blue","pixel"],["computer","silver","phone"],["phone","gold","iphone"]];
+const example2 = [["phone", "blue", "pixel"], ["computer", "silver", "phone"], ["phone", "gold", "iphone"]];
 console.log(countMatches(example2, "type", "phone")); // Output: 2
 
 // Time Complexity: O(n)
