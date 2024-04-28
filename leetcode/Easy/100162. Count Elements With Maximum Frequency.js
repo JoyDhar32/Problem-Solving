@@ -1,4 +1,4 @@
-const maxFrequencyElements =(nums)=>{
+const maxFrequencyElements = (nums) => {
     const countMap = new Map();
     for (const num of nums) {
         countMap.set(num, (countMap.get(num) || 0) + 1);
@@ -17,5 +17,5 @@ const maxFrequencyElements =(nums)=>{
 }
 
 console.log(maxFrequencyElements([1, 2, 2, 3, 3, 3])); // Output: [3]
-console.log(maxFrequencyElements([1,2,2,3,1,4])); // Output: [3]
-console.log(maxFrequencyElements([1,2,3,4,5])); // Output: [1,2]
+console.log(maxFrequencyElements([1, 2, 2, 3, 1, 4])); // Output: [3]
+console.log(maxFrequencyElements([1, 2, 3, 4, 5])); // Output: [1,2]
