@@ -1,9 +1,9 @@
-const maximumOddBinaryNumber =(s)=>{
-let conv=s.split('').sort((a,b)=>(b-a));
- conv.shift();
- conv.push('1');
- return conv.join('');
-    
+const maximumOddBinaryNumber = (s) => {
+    let conv = s.split('').sort((a, b) => (b - a));
+    conv.shift();
+    conv.push('1');
+    return conv.join('');
+
 }
 console.log(maximumOddBinaryNumber("1101"))//1011
 console.log(maximumOddBinaryNumber("1100"))//1100
