@@ -1,4 +1,4 @@
-const maximumNumberOfStringParis =(words) =>{
+const maximumNumberOfStringParis = (words) => {
     let count = 0;
     const reversedSet = new Set();
 
@@ -15,10 +15,11 @@ const maximumNumberOfStringParis =(words) =>{
 
     return count;
 }
-console.log(maximumNumberOfStringParis(["cd","ac","dc","ca","zz"])); // 2
-console.log(maximumNumberOfStringParis(["ab","ba","cc"])); // 1
+console.log(maximumNumberOfStringParis(["cd", "ac", "dc", "ca", "zz"])); // 2
+console.log(maximumNumberOfStringParis(["ab", "ba", "cc"])); // 1
 
 // time complexity: O(N * K)
 // space complexity: O(N * K)
 
 // ✅ Beats 100% of users with JavaScript
+// ✅ Hints: Use a set to store the reversed strings and count the number of pairs.
