@@ -11,4 +11,4 @@ console.log(minimizedStringLength("dddaaa")); // 11
 
 // Time Complexity: O(n)
 // Space Complexity: O(n)
-// ✅ Hint: Use Set to remove duplicates
+// ✅ Hint: Use Set to remove duplicates from the string. The size of the set is the minimum length of the string.
