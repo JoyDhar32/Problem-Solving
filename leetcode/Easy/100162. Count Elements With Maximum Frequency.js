@@ -22,3 +22,4 @@ console.log(maxFrequencyElements([1, 2, 3, 4, 5])); // Output: [1,2]
 
 // Time Complexity: O(N)
 // Space Complexity: O(N)
+// ✅ Hints: Count the frequency of each element, then find the maximum frequency. Finally, count the number of elements with the maximum frequency.
