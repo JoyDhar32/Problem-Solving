@@ -21,5 +21,5 @@ console.log(isAcronm(["a", "b", "c"], "bc")); // false
 
 // time complexity: O(n)
 // space complexity: O(1)
-
 // ✅ Beats 88% of users with JavaScript
+// ✅ Hints: Create an acronym from the first letter of each word in the list and compare it with the given string.
