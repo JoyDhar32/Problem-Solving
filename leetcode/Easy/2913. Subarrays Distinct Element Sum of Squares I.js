@@ -1,4 +1,4 @@
-const sumCounts =(nums)=>{
+const sumCounts = (nums) => {
     const n = nums.length;
     let result = 0;
 
