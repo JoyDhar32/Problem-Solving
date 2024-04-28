@@ -17,4 +17,4 @@ console.log(sumOfSquares([1, 3, 5, 7, 9])); // 165
 // time complexity: O(n)
 // space complexity: O(1)
 
-// ✅ Hint: length % (i + 1) == 0
+// ✅ Hint: length % (i + 1) == 0 means that i + 1 is a factor of length. If i + 1 is a factor of length, then the ith element is a special element. Add the square of the ith element to the sum. Finally, return the sum.
