@@ -1,4 +1,4 @@
-const findIntersectionValues =(nums1, nums2) =>{
+const findIntersectionValues = (nums1, nums2) => {
     const set1 = new Set(nums1);
     const set2 = new Set(nums2);
 
@@ -20,8 +20,8 @@ const findIntersectionValues =(nums1, nums2) =>{
     return [commonInNums2, commonInNums1];
 
 }
-console.log(findIntersectionValues([1,2,2,1],[2,2]))//[2,2]
-console.log(findIntersectionValues([4,9,5],[9,4,9,8,4]))//[4,9]
-console.log(findIntersectionValues([4,3,2,3,1],[2,2,5,2,3,6]))//[3,4]
+console.log(findIntersectionValues([1, 2, 2, 1], [2, 2]))//[2,2]
+console.log(findIntersectionValues([4, 9, 5], [9, 4, 9, 8, 4]))//[4,9]
+console.log(findIntersectionValues([4, 3, 2, 3, 1], [2, 2, 5, 2, 3, 6]))//[3,4]
 
 // ✅ Beats 90.45%of users with JavaScript
