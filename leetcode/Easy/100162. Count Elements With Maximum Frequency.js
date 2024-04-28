@@ -19,3 +19,6 @@ const maxFrequencyElements = (nums) => {
 console.log(maxFrequencyElements([1, 2, 2, 3, 3, 3])); // Output: [3]
 console.log(maxFrequencyElements([1, 2, 2, 3, 1, 4])); // Output: [3]
 console.log(maxFrequencyElements([1, 2, 3, 4, 5])); // Output: [1,2]
+
+// Time Complexity: O(N)
+// Space Complexity: O(N)
