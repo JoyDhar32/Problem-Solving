@@ -9,6 +9,6 @@ console.log(differenceOfSums(10, 1))// 0
 console.log(differenceOfSums(10, 5))// 5
 console.log(differenceOfSums(10, 4))// 10
 
-// time complexity is O(n) 
+// time complexity is O(n)
 // space complexity is O(1)
 // ✅ Hints: Using Turnery Operator and For Loop to solve the problem
