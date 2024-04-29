@@ -18,3 +18,4 @@ console.log(numberGame([5, 4, 2, 3]));
 // Space Complexity: O(1)
 
 // ✅ Beats 51.22%of users with JavaScript
+// ✅ Hint: Sort the array and swap the adjacent elements to get the minimum number of the game.
