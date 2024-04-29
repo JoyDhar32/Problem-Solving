@@ -15,6 +15,7 @@ console.log(numberGame([1, 2, 3]));
 console.log(numberGame([5, 4, 2, 3]));
 
 // Time Complexity: O(nlogn)
+
 // Space Complexity: O(1)
 
 // ✅ Beats 51.22%of users with JavaScript
