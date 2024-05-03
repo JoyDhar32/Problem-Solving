@@ -25,4 +25,4 @@ console.log(longestConsecutive([100, 4, 200, 1, 3, 2])); // 4
 
     // time complexity: O(n)
     // space complexity: O(n)
-    // 
+    // ✅ Hint: Use Set to remove duplicates from the array. Iterate through the set and check if the current number is the start of a sequence. If it is, iterate through the sequence and update the longest sequence length. Return the longest sequence length.
