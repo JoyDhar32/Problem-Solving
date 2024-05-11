@@ -4,7 +4,7 @@ const busyStudent = (startTime, endTime, queryTime) => {
         if (startTime[i] <= queryTime && endTime[i] >= queryTime) count++;
     }
     return count;
-    };
+};
 console.log(busyStudent([1, 2, 3], [3, 2, 7], 4));//1
 console.log(busyStudent([4], [4], 4));//1
 console.log(busyStudent([4], [4], 5));//0
