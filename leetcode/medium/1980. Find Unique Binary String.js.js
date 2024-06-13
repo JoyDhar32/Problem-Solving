@@ -5,7 +5,10 @@ const findDifferentBinaryString = (nums) => {
     const str = i.toString(2).padStart(n, '0'); 
     if (!set.has(str)) return str;
   }
+  
 };
+
+console.log(findDifferentBinaryString(["01", "10"])); // "00"
 
 // time complexity: O(2^n)
 // space complexity: O(2^n)
