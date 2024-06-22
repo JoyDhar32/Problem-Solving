@@ -7,24 +7,24 @@ const minDays = (bloomDay, m, k) => {
         let bouquets = 0;
         let flowers = 0;
         for (let i = 0; i < bloomDay.length; i++) {
-        if (bloomDay[i] <= mid) {
-            flowers++;
-            if (flowers === k) {
-            bouquets++;
-            flowers = 0;
+            if (bloomDay[i] <= mid) {
+                flowers++;
+                if (flowers === k) {
+                    bouquets++;
+                    flowers = 0;
+                }
+            } else {
+                flowers = 0;
             }
-        } else {
-            flowers = 0;
-        }
         }
         if (bouquets < m) {
-        left = mid + 1;
+            left = mid + 1;
         } else {
-        right = mid;
+            right = mid;
         }
     }
     return left;
-    };
+};
 
 console.log(minDays([1, 10, 3, 10, 2], 3, 1)); // 3
 console.log(minDays([1, 10, 3, 10, 2], 3, 2)); // -1
