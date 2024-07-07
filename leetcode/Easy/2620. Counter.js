@@ -1,7 +1,7 @@
-var createCounter = function(n) {
+var createCounter = function (n) {
 
-    return function() {
-      return n++;
+    return function () {
+        return n++;
     };
 };
 const counter = createCounter(10)
