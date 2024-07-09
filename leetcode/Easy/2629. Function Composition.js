@@ -11,7 +11,7 @@ var compose = function (functions) {
 };
 
 // Test cases
-const fn = compose([x => x + 1, x => 2 * x])
+const fn = compose([x => x + 1, x => 2 * x]) // Compose two functions x + 1 and 2 * x => 2 * (x + 1) = 2x + 2 => 2 * 4 + 2 = 10 
 console.log(fn(4));
 const fn2 = compose([x => x + 1, x => 2 * x, x => x / 2])
 console.log(fn2(4));
