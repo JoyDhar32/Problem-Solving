@@ -4,11 +4,11 @@ const minOperations = (logs) => {
         if (logs[i] === '../') {                                // if the log is '../' 
             if (depth > 0) {                                        // if the depth is greater than 0 
                 depth--;                                                                    // dec
-        } else if (logs[i] !== './') {                      // if the log is not './' 
-            depth++;                                       // increment the depth
+            } else if (logs[i] !== './') {                      // if the log is not './' 
+                depth++;                                       // increment the depth
+            }
         }
     }
-}
     return depth;                                       // return the depth
 }
 
