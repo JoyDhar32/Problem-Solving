@@ -17,7 +17,7 @@ const reverseVowel = (s) => {
         i++;
         j--;
     }
-   result =arr.join('');
+    result = arr.join('');
     return result;
 };
 
