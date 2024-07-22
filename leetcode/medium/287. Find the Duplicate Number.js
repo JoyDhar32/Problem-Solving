@@ -1,8 +1,8 @@
 const findDuplicate = (nums) => {
     let set = new Set();
-    for(let num of nums){
-        if(set.has(num)) return num;
-        else{
+    for (let num of nums) {
+        if (set.has(num)) return num;
+        else {
             set.add(num);
         }
     }
