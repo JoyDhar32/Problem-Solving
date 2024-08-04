@@ -11,11 +11,13 @@ const canBeEqual = (target, arr) => {
     return true;
 }
 
+// Test Cases
 console.log(canBeEqual([1, 2, 3, 4], [2, 4, 1, 3])) //true
 console.log(canBeEqual([7], [7])) //true
 console.log(canBeEqual([1, 12], [12, 1])) //true
 console.log(canBeEqual([3, 7, 9], [3, 7, 11])) //false
 console.log(canBeEqual([1, 12], [12, 1])) //true
+
 
 //Time Complexity O(n)
 //Space Complexity O(1)
