@@ -5,7 +5,7 @@ const hIndex = citations => {
         i++;
     }
     return i;
-    }
+}
 
 // Test Cases
 console.log(hIndex([3, 0, 6, 1, 5])) //3
