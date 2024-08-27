@@ -1,15 +1,15 @@
-const removeOuterParentheses =(s) =>{
+const removeOuterParentheses = (s) => {
     let count = 0;
     let result = '';
-    for(let i = 0; i < s.length; i++){
-        if(s[i] === '('){
-            if(count > 0){
+    for (let i = 0; i < s.length; i++) {
+        if (s[i] === '(') {
+            if (count > 0) {
                 result += '(';
             }
             count++;
-        }else{
+        } else {
             count--;
-            if(count > 0){
+            if (count > 0) {
                 result += ')';
             }
         }
