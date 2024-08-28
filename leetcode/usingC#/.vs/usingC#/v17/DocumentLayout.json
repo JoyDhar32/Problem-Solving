@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\DSA \u0026 Problem Solving\\Problem Solving\\leetcode\\usingC#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCD744E0-F79C-4F49-B33F-24E6F5A04C4E}|usingC#.csproj|h:\\dsa \u0026 problem solving\\problem solving\\leetcode\\usingc#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCD744E0-F79C-4F49-B33F-24E6F5A04C4E}|usingC#.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\DSA \u0026 Problem Solving\\Problem Solving\\leetcode\\usingC#\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "H:\\DSA \u0026 Problem Solving\\Problem Solving\\leetcode\\usingC#\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T11:07:50.125Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
