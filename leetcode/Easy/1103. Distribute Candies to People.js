@@ -7,7 +7,7 @@ const distributeCandies = (candies, num_people) => {
         i++;
     }
     return result;
-    };
+};
 
 console.log(distributeCandies(7, 4)) // [1, 2, 3, 1]
 console.log(distributeCandies(10, 3)) // [5, 2, 3]
