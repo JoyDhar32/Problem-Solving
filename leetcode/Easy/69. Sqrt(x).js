@@ -19,8 +19,8 @@ const mySqrt =(x) =>{
 console.log(mySqrt(8)); 
 console.log(mySqrt(4));
 console.log(mySqrt(1));
-console.log(mySqrt(0));
-console.log(mySqrt(9));
+console.log(mySqrt(20));
+console.log(mySqrt(19));
 
 // time complexity: O(log(x))
 // space complexity: O(1)
