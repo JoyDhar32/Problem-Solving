@@ -2,7 +2,7 @@ const reverseStr =(s,k)=>{
 s = s.split('');
 for(let i = 0; i < s.length; i += 2*k){
     let start = i;
-    let end = Math.min(i+k-1, s.length-1);
+    let end = Math.min(i+k-1, s.length-1); 
     while(start < end){
         let temp = s[start];
         s[start] = s[end];
@@ -20,7 +20,7 @@ console.log(reverseStr('abcdefg', 3)); // "cbadefg"
 
 // Time Complexity: O(n)
 // Space Complexity: O(n)
-// ✅Hints: using two pointers to loop through the string and reverse the string in k size.
+// ✅ Hints: using two pointers to loop through the string and reverse the string in k size.
 
 /* Explanation:
 1. Convert the string to an array.
