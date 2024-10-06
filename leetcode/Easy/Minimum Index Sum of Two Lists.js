@@ -7,18 +7,18 @@ const findRestaurant = (list1, list2) => {
     });
     list2.forEach((item, index) => {
         if (map[item] !== undefined) {
-        const sum = map[item] + index;
-        if (sum < min) {
-            min = sum;
-            result.length = 0;
-            result.push(item);
-        } else if (sum === min) {
-            result.push(item);
-        }
+            const sum = map[item] + index;
+            if (sum < min) {
+                min = sum;
+                result.length = 0;
+                result.push(item);
+            } else if (sum === min) {
+                result.push(item);
+            }
         }
     });
     return result;
-    };
+};
 
 console.log(findRestaurant(["Shogun", "Tapioca Express", "Burger King", "KFC"], ["KFC", "Shogun", "Burger King"])); // ["Shogun"]
 console.log(findRestaurant(["Shogun", "Tapioca Express", "Burger King", "KFC"], ["KFC", "Burger King", "Tapioca Express", "Shogun"])); // ["KFC", "Burger King", "Tapioca Express", "Shogun"]
