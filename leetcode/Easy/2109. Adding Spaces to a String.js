@@ -18,3 +18,5 @@ console.log(addSpaces('spacing', [0, 1, 2, 3, 4, 5, 6])); // ' s p a c i n g'
 
 // Time Complexity: O(n) where n is the length of the string
 // Space Complexity: O(n) for the result string
+
+//✅ Hints: Iterate through the string and insert a space at the specified indices. Keep track of the current index in the spaces array. Concatenate the characters of the string and the space as you iterate through the string. Return the resulting string.
