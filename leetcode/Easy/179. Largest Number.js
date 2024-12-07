@@ -1,8 +1,8 @@
 const largestNumber = (nums) => {
   nums.sort((a, b) => {
-    const str1 = `${a}${b}`;
-    const str2 = `${b}${a}`;
-    return str2 - str1;
+    const str1 = `${a}${b}`; // Concatenate a and b as strings to compare
+    const str2 = `${b}${a}`; // Concatenate b and a as strings to compare
+    return str2 - str1; // Sort in descending order based on the concatenation of the two numbers
   });
 
   return nums[0] === 0 ? '0' : nums.join('');
