@@ -23,4 +23,4 @@ console.log(getFinalState([1, 2, 3, 4], 4, 1)); // [1, 1, 1, 1]
 
 // Time Complexity: O(k * n) where n is the number of elements in the array nums
 // Space Complexity: O(1) since we are using a constant amount of extra space
-// 
+// Hints: Find the minimum value and its index in the array nums. Replace the minimum value with its product with the multiplier. Repeat this process k times. Return the final state of the array nums.
