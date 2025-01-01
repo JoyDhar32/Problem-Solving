@@ -11,7 +11,7 @@ const maxScore = (s) => {
         max = Math.max(max, zeros + ones);
     }
     return max;
-    };
+};
 
 // Test cases
 console.log(maxScore('011101')); // 5
