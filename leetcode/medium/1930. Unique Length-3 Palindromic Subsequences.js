@@ -13,10 +13,12 @@ const countPalindromicSubsequences = (s) => {
     return uniquePalindromes.size;
 };
 
+
 // Test cases
 console.log(countPalindromicSubsequences("aabca")); // 3
 console.log(countPalindromicSubsequences("adc")); // 0
 console.log(countPalindromicSubsequences("bbcbaba")); // 4
+console.log(countPalindromicSubsequences("ab")); // 0
 
 // Time Complexity: O(n^3) where n is the length of the input string
 // Space Complexity: O(n) for storing the unique palindromic subsequences
