@@ -16,6 +16,7 @@ const numRescueBoats = (people, limit) => {
 // Test cases
 console.log(numRescueBoats([1, 2], 3)); // 1
 console.log(numRescueBoats([3, 2, 2, 1], 3)); // 3
+console.log(numRescueBoats([3, 5, 3, 4], 5)); // 4
 
 // Time Complexity: O(n log n) due to sorting
 // Space Complexity: O(1) since we are using a constant amount of extra space
