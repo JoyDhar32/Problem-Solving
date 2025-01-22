@@ -14,23 +14,23 @@ const intToRoman = (num) => {
         900: 'CM',
         1000: 'M'
     }
-    
+
     const keys = Object.keys(roman).reverse()
     let result = ''
-    
+
     while (num > 0) {
         for (let i = 0; i < keys.length; i++) {
-        const key = keys[i]
-        if (num >= key) {
-            result += roman[key]
-            num -= key
-            break
-        }
+            const key = keys[i]
+            if (num >= key) {
+                result += roman[key]
+                num -= key
+                break
+            }
         }
     }
-    
+
     return result
-    }
+}
 
 console.log(intToRoman(3))//"III"
 console.log(intToRoman(1994))//"IV"
