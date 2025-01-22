@@ -1,4 +1,4 @@
-const merge =(intervals) => {
+const merge = (intervals) => {
     const res = [];
     const sorted = intervals.sort((a, b) => a[0] - b[0]);
 
@@ -21,4 +21,4 @@ console.log(merge([[1, 4], [2, 3]])); // [[1, 4]]
 // Time Complexity: O(n log n) due to sorting
 // Space Complexity: O(n) for storing the sorted intervals and the result array
 
-// ✅Hints: Sort the intervals based on the start time. Iterate through the sorted intervals and merge overlapping intervals. If the start time of the current interval is greater than the end time of the last interval in the result array, add the current interval to the result array. Otherwise, update the end time of the last interval in the result array with the maximum of the two end times. Return the result array.
+// ✅ Hints: Sort the intervals based on the start time. Iterate through the sorted intervals and merge overlapping intervals. If the start time of the current interval is greater than the end time of the last interval in the result array, add the current interval to the result array. Otherwise, update the end time of the last interval in the result array with the maximum of the two end times. Return the result array.
