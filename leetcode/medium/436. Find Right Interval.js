@@ -15,7 +15,6 @@ const findRightInterval = (intervals) => {
         }
         if (left < n) res[i] = sorted[left][1];
     }
-
     return res;
 };
 
