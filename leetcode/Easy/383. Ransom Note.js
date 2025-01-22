@@ -33,4 +33,5 @@ console.log(canConstruct("aa", "aab"));  // Output: true
 
 // Time Complexity: O(n)
 // Space Complexity: O(n)
+
 // ✅ Hint: Use two hash maps to store the count of each character in the ransom note and magazine. Then, iterate over the ransom note and check if the count of each character is less than or equal to the count of the same character in the magazine. If not, return false. Otherwise, return true.
